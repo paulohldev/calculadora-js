@@ -131,3 +131,24 @@ body {
   background-color: var(--c1);
   color: var(--c5);
 }
+
+.js-tela .top {
+  font-size: 14px;
+  transform: translateY(-30px);
+}
+
+.l15 {
+  font-size: 16px;
+}
+
+.l22 {
+  font-size: 14px;
+}
+
+.l26 {
+  font-size: 12px;
+}
+
+.l30 {
+  font-size: 8px;
+}
