@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Calculadora</title>
+  <title>Calculadora | phl.dev</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style/style.css">
 </head>
@@ -15,8 +15,8 @@
 <body>
   <div class="calculadora-bg">
     <div class="calculadora">
-      <div class="tela js-tela">
-        <p></p>
+      <div class="tela" data-tela>
+        <span></span>
       </div>
       <div class="botoes">
         <div class="limpador">
@@ -27,7 +27,7 @@
           <button class="subtracao">-</button>
           <button class="multiplicacao">*</button>
           <button class="adicao">+</button>
-          <button class="divisao">÷</button>
+          <button class="divisao">/</button>
         </div>
         <div class="numeros js-numeros">
           <button class="btn">1</button>
@@ -39,6 +39,7 @@
           <button class="btn">7</button>
           <button class="btn">8</button>
           <button class="btn">9</button>
+          <button class="btn">.</button>
           <button class="btn">0</button>
         </div>
       </div>
